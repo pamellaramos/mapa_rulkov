@@ -15,7 +15,8 @@ Um neurônio, assim como qualquer outra célula de animais, é recoberto por uma
 
 
 O mapa de Rulkov é um mapa iterado bidimensional usado para modelar um neurônio biológico. Proposto por Nicolai Rulkov no ano de 2001, o mapa possui vantagens quanto a economia de memória e simplificação de grandes redes neurais, por ser um mapa simples e fácil de iterar. Diferentes combinações dos parâmetros mencionados, dão origens a diferentes estudos dinâmicos do neurônio como: Reting, Tonic Spiking e Chaotic Burst.
+Como descrito no programa mapa_rulkov em doc.
 
 ![image](https://user-images.githubusercontent.com/87997775/158250816-d8f28ee6-7010-4e16-83b3-25e75fb1e858.png)
 
-Os Bursts são padrões de ativação dos neurônios no sistema nervoso central e na medula óssea e dependendo do valor do parâmetro, o neurônio pode apresentar explosões caóticas ou oscilações caóticas contínuas. Dentro da normalidade, há um gráfico constante, mas forçadamente, neste trabalho, uma perturbação paramétrica foi inclusa, já que qualquer alteração do potencial da membrana pode ser associada com patologias.
+Os Bursts são padrões de ativação dos neurônios no sistema nervoso central e na medula óssea e dependendo do valor do parâmetro, o neurônio pode apresentar explosões caóticas ou oscilações caóticas contínuas. Dentro da normalidade, há um gráfico constante, mas forçadamente, neste trabalho, uma perturbação paramétrica foi inclusa, já que qualquer alteração do potencial da membrana pode ser associada com patologias. O algoritmo com a perturbação está na pasta doc e para e = 0, recuperamos o mapa descrito na literatura. 
